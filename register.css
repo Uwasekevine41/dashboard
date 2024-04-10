@@ -1,0 +1,138 @@
+form
+{
+    
+    margin: 50px;
+}
+body
+{
+    background-color:cadetblue;
+    width: auto;
+    margin-bottom: 100px;
+}
+input
+{
+    margin:15px;
+    border: none;
+    border: 1px solid #d3d3d3;
+    border-radius: 10%;
+    padding: 5px;
+    
+}
+a
+{
+    text-decoration: none;
+    margin: 20px;
+}
+
+.input-box input
+{
+    width: 350px;
+    height: 50px;
+
+}
+.container
+{   position: absolute;
+    top: 50%;
+    width: 75%;
+    background-color:#fff;
+    transform: translate(-50%,-50%);
+    background-position:center ;
+    left: 50%;
+    height: 650px;
+    padding: 30px;
+    border-radius: 3%;
+    margin-top: 100px; 
+    margin-bottom: 100px;
+}
+.container .content
+{
+width: 45%;
+height: 100%;
+background:url(781.jpg) no-repeat; 
+background-size: cover;
+position: absolute;
+top: 0;
+left: 0;
+border-radius: 3%;
+display: flex;
+justify-content: space-between;
+}
+.text
+{
+padding: 100px;
+color: #fff;
+}
+.container .logreg-box
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100%-45%);
+    height:100%;
+  
+}
+.form-box
+{
+    padding-left: 300px;
+   translate: 60%;
+}
+h2{
+    padding: 10px;
+    translate: 20%;
+}
+.sb
+{
+    width: 350px;
+    padding: 8px;
+    translate: 3%;
+    background-color: black;
+    color: #fff;
+    border-radius: 10%;
+    margin: 10px;
+}
+.btn
+{
+    background-color: white;
+    width: 350px;
+    padding: 8px;
+    translate: 3%;
+    border-radius: 10%;
+    margin: 10px;
+}
+#logo
+{
+    color:blue;
+    font-size: 20px;
+}
+#arrow
+{
+    color: #fff;
+}
+hr{
+    margin-top: 10px;
+    width: 300px;
+}
+.or{
+ width: 30px;
+ margin: -35px auto 10px;
+ background-color:white;
+}
+.style-table
+{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 30px;
+    width: 400px;
+}
+.Join
+{
+    color:white;
+}
+.sign-upg
+{
+    color: black;
+}
+.sign-upa
+{
+    color: #fff;
+}

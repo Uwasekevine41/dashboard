@@ -1,26 +1,36 @@
 <html>
 <head>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="register.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
 <div class="container">
-<form action="login.html">
-<h1>register form</h1>
-<div class="input-group">
-<input type="text" id="email" name="email" required placeholder="First name">
-</div>  
-<div class="input-group">
-    <input type="text"  required placeholder="last name">
-    </div>
-<div class="input-group">
-    <input type="email"  required placeholder="Email address">
-    </div>
-<div class="input-group">
-        <input type="password" required placeholder="Password">
+<div class="content">
+    <div class="text">
+    <h1>create your <br>Accout</h1>
+    <p>share your artwork <br>
+    and get projects!</p>
+</div>
+    <div class="logreg-box">
+ <div class="form-box">
+    <form action="#">
+        <h2>sign  up</h2>
+        <div class="input-box">
+            <input type="text" placeholder="Firstname">
+            <input type="text" placeholder="Lastname">
+            <input type="email" placeholder="Email address">
+            <input type="password" placeholder="Password">
         </div>
-    <input type="checkbox" name="" id="">Accept Term & Conditions <br>
-<button type="submit"><a href="login.html">Join us -></a></button><br>
-</form>
+         <input type="checkbox" name="" id="">Accept Terms & Conditions <br>
+      <button type="submit" class="sb"><a href="users.html">Join Us<i class='bx bx-right-arrow-alt' id="arrow"></i></a></button>
+      <br><hr><br><p class="or">or</p>
+      <button type="submit" class="btn"><a href="#"><i class='bx bxl-google' id="logo"></i> Sign up with Google</a></button>
+      <button type="submit" class="sb"><a href="#">Sign up with app</a></button>
+    </form>
+  
+ </div>
+    </div>
+</div>
 </div>
 </body>
 </html>

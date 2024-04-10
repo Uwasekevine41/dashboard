@@ -1,18 +1,46 @@
 <html>
 <head>
-<link rel="stylesheet" href="style.css">
+<style>
+ .style-table
+{
+    border-collapse: collapse;
+    margin: 30px ;
+    font-size: 20px;
+    width: 400px;
+    padding: 20px;
+}
+.style-table th{
+    text-align: left;
+    font-weight: bold;
+    padding: 12px 15px;
+
+}
+.style-table td{
+    padding: 12px 15px;
+}
+.style-table tr{
+    border: 1px solid #dddddd;
+}
+.style-table tr:nth-last-of-type(even){
+background-color: #d3d3d3;
+}
+h2{
+    padding: 20px;
+    margin: 30px;
+}
+
+</style>
 </head>
 <body>
 <div class="container">
-<div class="style-table">
-<table>
+    <h2>User Orders</h2>
+<table class="style-table">
 <tr><th>Userid </th><th>Firstname </th><th>Lastname</th><th>Email</th><th>Password</th></tr>
 <tr><td>1</td><td>ISHIMWE </td><td>Eric</td><td>ishimweeric34@gmail.com</td><td>123</td></tr>
 <tr><td>2</td><td>INEZA </td><td>Doriane</td><td>inezadoriane24@gmail.com</td><td>456</td></tr>
 <tr><td>3</td><td>KAMANZI</td><td>Aime</td><td>kamanzi45@gmail.com</td><td>789</td></tr>
 <tr><td>4</td><td>MUGISHA</td><td>Eric</td><td>MUeric34@gmail.com</td><td>0qw</td></tr>
 </table>
-</div>
 </div>
 </body>
 </html>

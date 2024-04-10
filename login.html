@@ -1,25 +1,30 @@
 <html>
 <head>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="login.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
 <div class="container">
+    <div class="logo"></div>
+    <div class="form-box">
 <form action="login.html">
-<h1>login form</h1>
+<h1>welcome back</h1>
 <p>welcome back! please enter your details.</p>
-<div class="input-group">
+<div class="input-box">
 <label for="email"><h3>Email</h3></label><br>
 <input type="text" id="email" name="email" required placeholder="Enter your email">
 </div>  
 
-<div class="input-group">
+<div class="input-box">
     <label for="password"><h3>Password</h3></label><br>
     <input type="password" id="password" name="psw" required placeholder="........">
     </div>
-    <input type="checkbox" name="" id="">Remember for 30 days <a href="#">Forgot password</a><br>
-<button type="submit"><a href="users.html">login</a></button><br>
-<p>Don't have an account? <a href="register.html">register</a></p>
+    <p class="text"><input type="checkbox" name="" id="">Remember for 30 days <a href="#" class="link">Forgot password</a></p><br>
+<button type="submit" class="btn"><a href="users.html" class="Sign-in">Sign in</a></button>
+<button type="submit" class="btn2"><i class='bx bxl-google' id="logo"></i><a href="#" class="Sign-up"> Sign up with Google</a></button><br>
+<p class="text">Don't have an account? <a href="register.html" class="link">Sign up</a></p>
 </form>
+</div>
 </div>
 </body>
 </html>
